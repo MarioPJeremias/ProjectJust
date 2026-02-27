@@ -1,30 +1,30 @@
-📊 Project Overview Dashboard
+📊 **Project Overview Dashboard**
+
 📌 Descrição do Projeto
 
 O Project Overview Dashboard é um painel analítico desenvolvido no Microsoft Power BI com foco na visualização estratégica de dados financeiros e operacionais relacionados a projetos organizacionais.
 
-O dashboard permite monitorar:
+**O dashboard permite monitorar:**
 
-Distribuição de capital
+- Distribuição de capital
 
-Orçamento total de projetos
+- Orçamento total de projetos
 
-Custos por departamento
+- Custos por departamento
 
-Metas estratégicas
+- Metas estratégicas
 
-Salários
+- Salários
 
-Orçamento bianual
+- Orçamento bianual
 
-Status dos projetos
+**Status dos projetos**
 
 Foi concebido para apoiar a tomada de decisão baseada em dados e melhorar a visibilidade financeira da organização.
 
 🖼️ Preview do Dashboard
 
-![Projecto End To End PowerBI](C:\Users\mario\Documents\Projecto End To End PowerBI\Img)
-
+<img width="1146" height="735" alt="DashboardOver" src="https://github.com/user-attachments/assets/34f97716-e7e5-4636-9854-961ea4c8a331" />
 
 🎯 Funcionalidades
 🔹 1. Perfil do Colaborador
@@ -54,6 +54,7 @@ Permite análise personalizada por funcionário.
 📈 Project Budget Total
 
 Visualizados através de gráficos do tipo Donut para demonstrar proporções percentuais.
+
 
 🔹 3. Tabela de Metas Departamentais
 
@@ -122,9 +123,9 @@ Visualizações Interativas
 
 Exemplos de medidas utilizadas:
 
-Total Project Cost = SUM(Projects[Project Cost])
+_Total Project Cost = SUM(Projects[Project Cost])_
 
-Total Salary Cost = SUM(Projects[Salary Cost])
+**Total Salary Cost = SUM(Projects[Salary Cost])**
 
 Total 2 Year Budget = SUM(Projects[2-Year Budget])
 
@@ -137,34 +138,49 @@ Exemplo de Margem:
 Lucro Bruto = [Total Project Budget] - [Total Project Cost]
 
 Margem (%) = DIVIDE([Lucro Bruto], [Total Project Budget])
-📊 Objetivo Analítico
 
-Este dashboard foi desenvolvido com os seguintes objetivos:
+📊 **Objetivo Analítico***
 
-Centralizar informações financeiras
+**Este dashboard foi desenvolvido com os seguintes objetivos:**
 
-Monitorar alocação de capital
+**Centralizar informações financeiras**
 
-Comparar orçamento vs custos
+**Monitorar alocação de capital**
 
-Apoiar decisões estratégicas
+**Comparar orçamento vs custos**
 
-Avaliar desempenho departamental
+**Apoiar decisões estratégicas**
 
-Melhorar transparência organizacional
+**Avaliar desempenho departamental**
 
-📁 Estrutura Recomendada do Repositório
+**Melhorar transparência organizacional**
+
+
+📁 **Estrutura Recomendada do Repositório**
+
 project-overview-dashboard/
+
 │
-├── images/
-│   └── dashboard.png
+├
+── images/
+
+│   
+└── dashboard.png
+
 │
-├── dataset/
-│   └── project_data.xlsx
+├
+── dataset/
+
+│ 
+└── project_data.xlsx
+
 │
-├── ProjectOverviewDashboard.pbix
+├
+── ProjectOverviewDashboard.pbix
+
 │
 └── README.md
+
 🚀 Possíveis Melhorias Futuras
 
 Implementação de Row-Level Security (RLS)
@@ -182,5 +198,7 @@ Integração com Microsoft Fabric
 👤 Autor
 
 Mário Jeremias
+
 Data Analyst | Power BI Developer
+
 Luanda, Angola
